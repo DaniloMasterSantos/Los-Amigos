@@ -1,0 +1,250 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+/*INÍCIO MENU*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Zain';
+}
+
+html{
+    width: 100vw;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #5e1818;
+    max-width: 100%;
+}
+
+.logo{
+    width: 100px;
+}
+
+header{
+    z-index:1;
+    background-color:#000000;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+nav a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #D4AF37;
+    font-size: 19px;
+    transition:all ease 0.3s;
+}
+
+nav a:hover{
+    color:#f51717
+}
+
+/*MENU HAMBURGUER*/
+.menu-toggle{
+    color:#D4AF37;
+    font-size: 40px;
+    margin-right: 20px;
+    display: none;
+}
+
+/*TODAS AS SECTIONS DO SITE*/
+.section{
+    width: 100%;
+    min-height: 100vh; 
+    background-color:#000000;
+}
+
+
+/*HOME*/
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616)), url(img/foto3.png);
+    background-size: cover;
+}
+
+.home h1{
+    font-family: 'Roboto Slab';
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.home p{
+    font-size: 23px;
+    color:#fffb00;
+}
+
+
+/*SOBRE*/
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+}
+
+.sobre h1{
+    font-family: 'Roboto Slab';
+    color: white;
+    font-size: 70px;
+    margin: 10px 0px;
+}
+
+.sobre h1 span{
+    font-family:'Imperial Script';
+    font-size: 100px;
+    color:#f51717;
+}
+
+.sobre p{
+    font-size: 23px;
+    color:#e2e2ce;
+}
+
+/*LOCALIZAÇÃO*/
+.local{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.local h1{
+    font-size: 70px;
+    font-family: 'Roboto Slab';
+    color:#f51717;
+}
+
+.local iframe{
+    min-width: 800px;
+    min-height: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    background-color:#0a0a0a;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*RESPONSIVIDADE*/
+@media(max-width:450px){
+
+    .section{
+        padding: 5%;
+        min-height: 80vh;
+    }
+
+    .home{
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(12, 12, 12, 0.74)), url(img/foto4.png);
+        background-position: center;
+    }
+
+    .home h1{
+        font-size: 46px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .sobre h1{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .sobre h1 span{
+        font-size: 46px;
+    }
+
+    .sobre p{
+        font-size: 23px;
+        text-align: justify;
+    }
+
+    .local h1{
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .local iframe{
+        min-width: 300px;
+        min-height: 550px;
+    }
+
+    .local p{
+        margin-bottom: 10px;
+    }
+
+    /*ATIVA MENU HAMBURGUER*/
+    .menu-toggle{
+        display: block;
+    }
+
+    /* ESCONDE MENU */
+  nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 100%;
+    background: #00000049;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+
+  /* MENU ABERTO */
+  nav.active {
+    max-height: 400px;
+  }
+
+  nav a {
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ANIMAÇÃO SCROLL */
+.reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
