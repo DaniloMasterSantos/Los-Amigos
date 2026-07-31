@@ -216,6 +216,147 @@ nav a:hover{
     border-top-left-radius: 10px;   
 }
 
+.img-cardapio-feijoada{
+    width:100%;
+    height: 300px;
+    background-image: url(img/feijoada.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-salada{
+    width:100%;
+    height: 300px;
+    background-image: url(img/salada.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-japonesa{
+    width:100%;
+    height: 300px;
+    background-image: url(img/japonesa.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-hotholl{
+    width:100%;
+    height: 300px;
+    background-image: url(img/hotholl.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-djo{
+    width:100%;
+    height: 300px;
+    background-image: url(img/djo.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-temaki{
+    width:100%;
+    height: 300px;
+    background-image: url(img/temaki.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-combinados{
+    width:100%;
+    height: 300px;
+    background-image: url(img/combinados.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-hossomaki{
+    width:100%;
+    height: 300px;
+    background-image: url(img/hossomaki.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-tepan{
+    width:100%;
+    height: 300px;
+    background-image: url(img/tepan.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-niguiri{
+    width:100%;
+    height: 300px;
+    background-image: url(img/niguiri.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-uramaki{
+    width:100%;
+    height: 300px;
+    background-image: url(img/uramaki.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-mexicana{
+    width:100%;
+    height: 300px;
+    background-image: url(img/mexicana.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-pizza{
+    width:100%;
+    height: 300px;
+    background-image: url(img/pizza.png);
+    background-size:cover;
+    background-position-y:15%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-pizza-doce{
+    width:100%;
+    height: 300px;
+    background-image: url(img/pizza-doce.png);
+    background-size:cover;
+    background-position-y:15%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+
 .item-cardapio{
     padding: 10px;
 }
@@ -326,6 +467,62 @@ footer{
 
     .img-cardapio-executivo{
         background-image: url(img/prato-executivo-cel.png);
+    }
+
+    .img-cardapio-feijoada{
+        background-image: url(img/feijoada-cel.png);
+    }
+
+    .img-cardapio-salada{
+        background-image: url(img/salada-cel.png);
+    }
+
+    .img-cardapio-japonesa{
+        background-image: url(img/japonesa-cel.png);
+    }
+
+    .img-cardapio-hotholl{
+        background-image: url(img/hotholl-cel.png);
+    }
+
+    .img-cardapio-djo{
+        background-image: url(img/djo-cel.png);
+    }
+
+    .img-cardapio-temaki{
+        background-image: url(img/temaki-cel.png);
+    }
+
+    .img-cardapio-combinados{
+        background-image: url(img/combinados-cel.png);
+    }
+
+    .img-cardapio-hossomaki{
+        background-image: url(img/hossomaki-cel.png);
+    }
+
+    .img-cardapio-tepan{
+        background-image: url(img/tepan-cel.png);
+    }
+
+    .img-cardapio-niguiri{
+        background-image: url(img/niguiri-cel.png);
+    }
+
+    .img-cardapio-uramaki{
+        background-image: url(img/uramaki-cel.png);
+    }
+
+    .img-cardapio-mexicana{
+        background-image: url(img/mexicana-cel.png);
+    }
+
+    .img-cardapio-pizza{
+        background-image: url(img/pizza-cel.png);
+    }
+
+    .img-cardapio-pizza-doce{
+        background-image: url(img/pizza-doce-cel.png);
     }
 
     .local h1{
