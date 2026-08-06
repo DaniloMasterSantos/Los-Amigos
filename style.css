@@ -134,8 +134,8 @@ nav a:hover{
 }
 
 .item-menu{
-    width: 400px;
-    height: 450px;
+    width: 280px;
+    height: 280px;
     background-color: rgb(15, 15, 15);
     border-radius: 10px;
     overflow: hidden;
@@ -144,10 +144,11 @@ nav a:hover{
 
 .item-menu img{
     width: 100%;
-    height: 60%;
+    height: 80%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transition: ease all 0.5s;
+    z-index: 0;
 }
 
 .item-menu img:hover{
@@ -351,11 +352,100 @@ nav a:hover{
     height: 300px;
     background-image: url(img/pizza-doce.png);
     background-size:cover;
-    background-position-y:15%;
+    background-position-y:35%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;   
 }
 
+.img-cardapio-beirute{
+    width:100%;
+    height: 300px;
+    background-image: url(img/beirute.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-porcoes{
+    width:100%;
+    height: 300px;
+    background-image: url(img/porcoes.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-sucos{
+    width:100%;
+    height: 300px;
+    background-image: url(img/sucos.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-refri{
+    width:100%;
+    height: 300px;
+    background-image: url(img/refri.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-cerveja{
+    width:100%;
+    height: 300px;
+    background-image: url(img/cerveja.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-drink{
+    width:100%;
+    height: 300px;
+    background-image: url(img/drink.png);
+    background-size:cover;
+    background-position-y:35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-sobremesa{
+    width:100%;
+    height: 300px;
+    background-image: url(img/sobremesa.png);
+    background-size:cover;
+    background-position-y:25%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-acai{
+    width:100%;
+    height: 300px;
+    background-image: url(img/acai.png);
+    background-size:cover;
+    background-position-y:25%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.img-cardapio-vinhos{
+    width:100%;
+    height: 300px;
+    background-image: url(img/vinhos.png);
+    background-size:cover;
+    background-position-y:25%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
 
 .item-cardapio{
     padding: 10px;
@@ -453,10 +543,6 @@ footer{
         text-align: justify;
     }
 
-    .item-menu img{
-        height: 50%;
-    }
-
     .cardapio h1{
         font-size: 50px;
     }
@@ -523,6 +609,42 @@ footer{
 
     .img-cardapio-pizza-doce{
         background-image: url(img/pizza-doce-cel.png);
+    }
+
+    .img-cardapio-beirute{
+        background-image: url(img/beirute-cel.png);
+    }
+
+    .img-cardapio-porcoes{
+        background-image: url(img/porcoes-cel.png);
+    }
+
+    .img-cardapio-sucos{
+        background-image: url(img/sucos-cel.png);
+    }
+
+    .img-cardapio-refri{
+        background-image: url(img/refri-cel.png);
+    }
+
+    .img-cardapio-cerveja{
+        background-image: url(img/cerveja-cel.png);
+    }
+
+    .img-cardapio-drink{
+        background-image: url(img/drink-cel.png);
+    }
+
+    .img-cardapio-sobremesa{
+        background-image: url(img/sobremesa-cel.png);
+    }
+
+    .img-cardapio-acai{
+        background-image: url(img/acai-cel.png);
+    }
+
+    .img-cardapio-vinhos{
+        background-image: url(img/vinhos-cel.png);
     }
 
     .local h1{
